@@ -1,0 +1,8 @@
+Colores
+
+Negro		 #000000
+Blanco		 #FFFFFF
+Gris Plomo	 #454B60
+Naranja Waiu	 #DD4526
+Naranja Waiu #2	 #F14242
+Morado		 #492A53
