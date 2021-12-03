@@ -9,6 +9,10 @@ module.exports = {
     index: (req, res) => {
         res.render("index");
     },
+   
+    inicio: (req, res) => {
+        res.render("inicio");
+    },
 
     /* indexAdmin: (req, res) => {
         res.render("index-admin");
