@@ -39,7 +39,15 @@ body {
 	width: 100px;
 	margin: auto;
 }
-
+ul.social li a.fa-twitch{
+	background-color: rgb(73, 3, 235);
+}
+ul.social li a.fa-behance{
+	background-color: rgb(61, 161, 228);
+}
+ul.social li a.fa-tiktok{
+	background-color: #444;
+}
 .avatar__image {
 	/* Rounded border */
 	border-radius:50%;
