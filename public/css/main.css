@@ -51,6 +51,27 @@ body {
 ol, ul {
 	list-style: none;
 }
+.markdis h2{
+	position: unset;
+
+height: 258px;
+left: 196px;
+top: 275px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 86px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 blockquote, q {
 	quotes: none;
