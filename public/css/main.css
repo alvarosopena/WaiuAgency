@@ -40,7 +40,7 @@ body {
 	margin: auto;
 }
 ul.social li a.fa-twitch{
-	background-color: rgb(73, 3, 235);
+	background-color: #6441a5;
 }
 ul.social li a.fa-behance{
 	background-color: rgb(61, 161, 228);
@@ -1921,7 +1921,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color:  #f07833;
 				}
 
 				ul.social li a.fa-foursquare {
