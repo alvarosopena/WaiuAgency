@@ -2082,6 +2082,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #ffffff url("images/overlay.png");
+		border-right: 2px outset ;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: rgb(0, 0, 0);
 		height: 100%;
@@ -2131,9 +2132,10 @@ input, select, textarea {
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 1.5em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		
 	}
 
 		#logo h1 {
@@ -2154,8 +2156,8 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: absolute;
-			left: 0;
+			position: relative;
+			left: 0px;
 			top: 0;
 		}
 
