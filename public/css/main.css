@@ -6,14 +6,14 @@
   height: auto;
 }
 .btn-flotante {
-	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	font-size: 152px; /* Cambiar el tamaño de la tipografia */
 	text-transform: uppercase; /* Texto en mayusculas */
 	font-weight: bold; /* Fuente en negrita o bold */
 	color: #ffffff; /* Color del texto */
 	border-radius: 0px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
 	background-image:url("images/ie/waiu_the_podcast.svg"); /* Color de fondo */
-	/* padding: 0px 0px; Relleno del boton */
+	padding: 0px 0px; /*Relleno del boton*/ 
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
@@ -28,10 +28,11 @@
 	}
 	@media only screen and (max-width: 600px) {
 	.btn-flotante {
-	font-size: 0px;
-	padding: 12px 20px;
+	/* font-size: 0px; */
+	padding: 0px 0px;
 	bottom: 20px;
 	right: 20px;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 	}
 	}
 
@@ -117,12 +118,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		/* background: #fff; */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(0, 0, 0);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1886,7 +1887,7 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		background: #fff;
-		background: rgba(255, 255, 255, 0.75);
+		/* background: rgb(255, 255, 255); */
 		width: 100%;
 		border-radius: 0.35em;
 		padding: 0.75em 1em 0.75em 1em;
@@ -1957,11 +1958,11 @@ input, select, textarea {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
-			background: #222729 url("images/overlay.png");
+			/* background: #222729 url("images/overlay.png"); */
 		}
 
 		table thead {
-			background: #444;
+			background: rgb(255, 255, 255);
 			color: #fff;
 		}
 
@@ -2080,9 +2081,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #ffffff url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #fff;
+		color: rgb(0, 0, 0);
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
@@ -2171,7 +2172,7 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(0, 0, 0, 0.5);
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2197,9 +2198,9 @@ input, select, textarea {
 					}
 
 				#nav ul li a.active {
-					background: rgba(0, 0, 0, 0.15);
+					/* background: rgba(0, 0, 0, 0.15); */
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
+					color: rgb(0, 0, 0);
 				}
 
 					#nav ul li a.active span:before {
@@ -2211,7 +2212,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		/* background-color: #dce3e2; */
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2239,7 +2240,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 140px;
 	}
 
 		#main > section {
@@ -2248,12 +2249,12 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgb(0, 0, 0);
+				color: rgba(0, 0, 0, 0.75);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2261,12 +2262,12 @@ input, select, textarea {
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: rgb(0, 0, 0);
 					border-color: inherit;
 				}
 
 				#main > section.dark a {
-					color: #fff;
+					color: rgb(0, 0, 0);
 					border-color: inherit;
 				}
 
@@ -2281,20 +2282,20 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-color: #81918E;
+				background-image: url("../../images/banner.jpg"); */
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				/* background-color: #f5fafa; */
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				/* background-color: #ecf1f1; */
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				/* background-color: #e8edec; */
 			}
 
 /* Wide */
@@ -2310,19 +2311,19 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 200px;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 140px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				margin-left: 140px;
 			}
 
 	}
@@ -2474,7 +2475,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				/* background: #222729 url("images/overlay.png"); */
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2542,10 +2543,10 @@ input, select, textarea {
 
 					#headerToggle .toggle:before {
 						text-decoration: none;
-						content: '\f0c9';
-						color: #fff;
+						content: url("/public/images/Isologo.png");
+						color: rgb(0, 0, 0);
 						font-size: 18px;
-						background: rgba(128, 136, 144, 0.5);
+						background-image: url("/public/images/Isologo.png");
 						border-radius: 0.35em;
 						text-align: center;
 						position: absolute;
