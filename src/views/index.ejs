@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Miniport by HTML5 UP
+	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -9,239 +9,200 @@
 		<%- include('partials/head.ejs') %>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body class="is-preload">
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Inicio</a></li>
-					<li><a href="#work">Quiénes</a></li>
-					<li><a href="#portfolio">Qué</a></li>
-					<li><a href="#contact">Dónde</a></li>
-				</ul>
-			</nav>
+		<!-- Header -->
+			<div id="header">
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/LogotipoEsttico.png" alt="" /></span>
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Jane Doe</h1>
+							<p>Hyperspace Engineer</p>
 						</div>
-						<div class="col-8 col-7-large col-12-medium">
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
 							<header>
-								<h1><strong>The Agency</strong></h1>
+								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
 							</header>
-							<p>Una buena agencia nacida en época de pandemia.
-								En realidad, un poco antes, pero bueno, a fines de contar una buena historia
-								aceptaremos el mito.</p>
-							<a href="#work" class="button large scrolly "><strong>Quiénes</strong></a>
-						</div>
-					</div>
-				</div>
-			</article>
 
-		<!-- Work -->
-			<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						
-							<p> <strong> Cuatro personas sentadas alrededor de una mesa y con hambre, no
-							necesariamente de asado, sino de ideas, de desafíos, de nuevos conceptos
-							que atenten contra los parámetros oxidados de la creatividad.
-							Nuestras áreas son infinitas, así como nuestras ganas de crear.
-							Acompañanos.</strong>
-							</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<div class="avatar">
-									<!-- Avatar image -->
-									<img class="avatar__image" src="images/pic00.jpg" />
-									<h3>tati</h3>
-								</div>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<div class="avatar">
-									<!-- Avatar image -->
-									<img class="avatar__image" src="images/pic00.jpg" />
-									<h3>mono</h3>
-								</div>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<div class="avatar">
-									<!-- Avatar image -->
-									<img class="avatar__image" src="images/pic00.jpg" />
-									<h3>juan</h3>
-								</div>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<div class="avatar">
-									<!-- Avatar image -->
-									<img class="avatar__image" src="images/pic00.jpg" />
-									<h3>alvaro</h3>
-								</div>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">Qué</a>
-					</footer>
-				</div>
-			</article>
+							<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer>
 
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header class="markdis">
-						<div > <h2 class="box styke3">MARKETING Y DISEÑO</h2> </div>
-						<div> <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
 						</div>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Dónde</a>
-					</footer>
-				</div>
-			</article>
+					</section>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Contactanos</h2>
-						<p>Mandando un mensaje a <a href="https://api.whatsapp.com/send?phone=+5492616756285"target="blank">+5492616756285 </a> <br>
-							
-							O en cualquiera de nuestras <a href ="#redes" class="large scrolly" >redes</a>. <br>
-							
-							Si nos querés visitar, estamos en la casa gigante de 20 de junio y Rivadavia, Maipú, Mendoza.</p>
-							<div class="map-responsive">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.861480753674!2d-68.79350188481277!3d-32.98105618091084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1cb868a9c810f1a!2zMzLCsDU4JzUxLjgiUyA2OMKwNDcnMjguNyJX!5e0!3m2!1ses!2sar!4v1639679911708!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
 							</div>
-							<br>
-							<br>
-							<h2>Dejanos tu mensaje</h2>
-					</header>
-					<div class="row">
-						<div class="col-12">
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
 							<form method="post" action="#">
 								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Nombre" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Asunto" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Mensaje"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Mandar Mensaje" /></li>
-											<li><input type="reset" value="Limpiar" class="alt" /></li>
-										</ul>
+										<input type="submit" value="Send Message" />
 									</div>
 								</div>
 							</form>
+
 						</div>
-						<div id="redes" class="col-12">
-							<hr />
-							<h3>Nuestras redes</h3>
-							<ul class="social">
-								<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label" target="blank">Twitter</span></a></li> -->
-								<li><a href="https://www.facebook.com/waiuagency" class="icon brands fa-facebook-f" target="blank"><span class="label">Facebook</span></a></li>
-								<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-								<li><a href="https://www.linkedin.com/company/waiuagency/" class="icon brands fa-linkedin-in" target="blank"><span class="label">LinkedIn</span></a></li>
-								<!-- <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li> -->
-								<li><a href="https://www.instagram.com/waiu.agency/" class="icon brands fa-instagram" target="blank"><span class="label" >Instagram</span></a></li>
-								<!-- <li><a href="#" class="icon brands fa-foursquare"><span class="label">Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span class="label">Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span class="label">Soundcloud</span></a></li> -->
-								<li><a href="https://www.youtube.com/channel/UCGqtoeRjekbQ_3D6mi4DBig" class="icon brands fa-youtube" target="blank"><span class="label">YouTube</span></a></li>
-								<li><a href="https://www.tiktok.com/@waiuagency?lang=es" class="icon brands far fa-tiktok" target="blank"><span class="label">Tiktok</span></a></li>
-								<li><a href="https://www.behance.net/WAIU" class="icon brands fa-behance" target="blank"><span class="label">Behance</span></a></li>
-								<li><a href="https://www.twitch.tv/waiuagency" class="icon brands fa-twitch" target="blank"><span class="label"> Twitch</span></a></li>
-								
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<%- include('partials/footer.ejs') %>
-						<!-- <ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul> -->
-					</footer>
-				</div>
-			</article>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
 
 		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/jquery.scrolly.min.js"></script>
-			<script src="/js/browser.min.js"></script>
-			<script src="/js/breakpoints.min.js"></script>
-			<script src="/js/util.js"></script>
-			<script src="/js/main.js"></script>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
 
 	</body>
 </html>
