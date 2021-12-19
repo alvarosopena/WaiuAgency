@@ -2082,14 +2082,14 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #ffffff url("images/overlay.png");
-		border-right: 2px outset ;
+		border-right: 2px inset rgba(0, 0, 0, 0.466) ;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: rgb(0, 0, 0);
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 375px;
 	}
@@ -2162,6 +2162,7 @@ input, select, textarea {
 		}
 
 	#nav ul {
+		text-align: left;
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
