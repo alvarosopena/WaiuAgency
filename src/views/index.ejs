@@ -10,18 +10,25 @@
 	
 	scroll !! pasa de una pag a otra
 	menu hamburgesa tiene que ser el isologo!!
-	el boton del podcast hay que corregirlo!!
+	
 	
 	esto es una buena propuesta para hacer la pantalla de carga antes de la pag 
-	https://www.codexworld.com/display-loading-image-while-page-loads-jquery-css/ esto es una buena propuesta para hacer la pantalla de carga antes de la pag -->
+	https://www.codexworld.com/display-loading-image-while-page-loads-jquery-css/  -->
 <html>
 	<head>
 		<%- include('partials/head.ejs') %>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$(".loader").fadeOut("slow");
+			});
+</script>
 	</head>
 	<body class="is-preload">
+		<div class="loader"></div>
 		
 		<!-- Header -->
 			<div id="header">
@@ -297,8 +304,9 @@
 					</ul> -->
 
 			</div>
-
+			
 		<!-- Scripts -->
+			
 			<script src="js/jquery.min.js"></script>
 			<script src="js/jquery.scrolly.min.js"></script>
 			<script src="js/jquery.scrollex.min.js"></script>
@@ -306,6 +314,7 @@
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
-
+			
+			
 	</body>
 </html>
