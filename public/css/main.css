@@ -17,7 +17,7 @@
 	/* background-image:url('images/ie/waiu_the_podcast.svg'); Color de fondo */
 	padding: 0px 0px; /*Relleno del boton*/ 
 	position: fixed;
-	bottom: 30px;
+	bottom: 20px;
 	right: 40px;
 	transition: all 300ms ease 0ms;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -2337,7 +2337,19 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 140px;
+				margin-left: 200px;
+				margin-right: 40px;
+				margin-top: 20px;
+			}
+			#main > section {
+				margin-left: 42px;
+				margin-top: 81px;
+				margin-right: 49px;
+				overflow: hidden;
+				padding: 4em 0;
+				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+				text-align: right;
+				/* background-image: url("images/overlay.png"); */
 			}
 
 	}
@@ -2348,8 +2360,18 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 3em 0;
+			} */
+			#main > section {
+				margin-left: 42px;
+				margin-top: 81px;
+				margin-right: 49px;
+				overflow: hidden;
+				padding: 4em 0;
+				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+				text-align: right;
+				/* background-image: url("images/overlay.png"); */
 			}
 
 			#main section.cover {
@@ -2365,7 +2387,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 30pt;
 			}
 
 			.container {
@@ -2419,10 +2441,19 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 20%;
+			} */
+			#main > section {
+				margin-left: 42px;
+				margin-top: 81px;
+				margin-right: 49px;
+				overflow: hidden;
+				padding: 4em 0;
+				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+				text-align: right;
+				/* background-image: url("images/overlay.png"); */
 			}
-
 	}
 
 /* Narrower */
@@ -2614,10 +2645,20 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-				#main > section {
+				/* #main > section {
 					padding: 3em 0;
-				}
+				} */
 
+				#main > section {
+					margin-left: 42px;
+					margin-top: 81px;
+					margin-right: 49px;
+					overflow: hidden;
+					padding: 4em 0;
+					box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+					text-align: right;
+					/* background-image: url("images/overlay.png"); */
+				}
 				#main section.cover {
 					padding: 4em 0;
 				}
