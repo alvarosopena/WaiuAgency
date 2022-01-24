@@ -5,6 +5,7 @@
 	font-family: Roboto Slab;
 	color: black;
 	font-size: 1.3em;
+	
 }
 .float-left-child {
 	float: left;
@@ -12,13 +13,16 @@
   }
   .float-left-child-right {
 	float: left;
-	width:  15em;
+	width:  5em;
   }
 .em{
 	color: rgb(250, 193, 7);
 }
 .wa{
 	color:green;
+}
+.wa:active{
+	background-color: green;
 }
 .fb{
 	color:rgb(3, 102, 250)
@@ -1931,8 +1935,8 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px #8ebebc;
-			background: #fff;
+			box-shadow: 0em 1.5em 0 2px 1px #001312;
+			background: rgba(236, 236, 236, 0.897);
 		}
 
 	form input[type="text"],
@@ -2029,7 +2033,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #ff5202;
 		}
 
 		input[type="button"]:active,
@@ -2037,7 +2041,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #ff3c00;
 		}
 
 /* Item */
