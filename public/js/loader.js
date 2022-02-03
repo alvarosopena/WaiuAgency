@@ -1,4 +1,4 @@
 $(window).on( 'load' , function() {
     setTimeout( function () { $(".loader").fadeOut("slow");
-}, 0000);
+}, 2000);
  });
