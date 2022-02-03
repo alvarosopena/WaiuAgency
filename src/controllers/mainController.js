@@ -47,5 +47,10 @@ module.exports = {
         req.session.destroy();
         res.redirect('/');
     },  
+
+    formulario: (req, res) => {
+        console.log(req.body);
+        res.render("index");
+    },
  
 };

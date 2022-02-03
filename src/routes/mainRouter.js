@@ -1,4 +1,5 @@
 const express = require('express');
+const { append } = require('express/lib/response');
 const router = express.Router();
 const controller = require('../controllers/mainController')
 
@@ -6,6 +7,8 @@ const controller = require('../controllers/mainController')
 //const userMiddleware = require('../middlewares/userMiddleware');
 
 router.get('/', controller.index);
+router.post('/', controller.formulario)
+
 router.get('/maintenance', controller.maintenance);
 /* router.get('/index-admin', controller.indexAdmin); */
 router.get('/contacto', controller.contact);
