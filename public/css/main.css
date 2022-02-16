@@ -2765,8 +2765,9 @@ input, select, textarea {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('/images/Isologo.png') 50% 50% no-repeat rgb(249,249,249);
-	opacity: .8;
+	background: url('/images/gif.gif') 50% 50% no-repeat rgb(249,249,249);
+	opacity: 1;
+	zoom: 120%;
 } 
 
 
@@ -2963,14 +2964,14 @@ input, select, textarea {
   transform: translateY(0) scale(1.2);
 }
 .img1 {
-  left: 22px;
-  top: 164px;
-  width: 340px;
+	left: -46px;
+	top: 70px;
+	width: 486px;
 }
 .img2 {
-  left: -46px;
-  top: 174px;
-  width: 444px;
+  left: -90px;
+  top: 90px;
+  width: 486px;
 }
 .img3 {
   left: -16px;
