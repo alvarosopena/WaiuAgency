@@ -1,8 +1,6 @@
 //bajar node a la pc
 //npm init npm install npm install express
 
-
-
 const path = require('path');
 const express = require ("express");
 const app = express ();
@@ -16,8 +14,6 @@ const auth = require('./src/middlewares/auth');
 const cookieParser = require('cookie-parser');
 
 const cors = require ("cors");
-
-
 
 app.use(cors())
 
@@ -55,7 +51,7 @@ app.use((req,res,next)=> {
   });
   
 //Servidor
-app.listen(3000, () => {
+app.listen(3002, () => {
     console.log("Servidor en puerto 3000")
 })
 
