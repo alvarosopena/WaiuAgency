@@ -2502,6 +2502,10 @@ input, select, textarea {
 				text-align: right;
 				/* background-image: url("images/overlay.png"); */
 			}
+
+			#main > section.two{
+				padding-left: 9em;
+			}
 	}
 
 /* Narrower */
