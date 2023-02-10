@@ -2507,6 +2507,13 @@ input, select, textarea {
 				padding-left: 9em;
 			}
 	}
+	/*committ problema de screen resolucion de 1900 seccion de porfolio o que*/
+
+	@media screen and (min-width: 1900px) and (max-width: 2000px){
+		#main > section.two{
+			padding-left: 9em;
+		}
+	}
 
 /* Narrower */
 
