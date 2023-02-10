@@ -10,14 +10,6 @@ module.exports = {
         res.render("index");
     },
    
-  /*   inicio: (req, res) => {
-        res.render("index");
-    }, */
-
-    /* indexAdmin: (req, res) => {
-        res.render("index-admin");
-    }, */
-
     contact: (req, res) => {
         res.render("contact");
         
@@ -37,11 +29,6 @@ module.exports = {
         res.render("coming-soon");
         
     },
-    
-    /*  carrito: (req, res) => {
-        res.render("products/carrito");
-        
-    },*/
 
     logout: (req, res) => {
         req.session.destroy();
