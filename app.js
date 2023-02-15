@@ -52,6 +52,6 @@ app.use((req,res,next)=> {
   
 //Servidor
 app.listen(3002, () => {
-    console.log("Servidor en puerto 3000")
+    console.log("Servidor en puerto 3002")
 })
 
