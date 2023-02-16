@@ -1,6 +1,9 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
+
+
+
 .podcast header{
 
 }
@@ -2506,12 +2509,29 @@ input, select, textarea {
 			#main > section.two{
 				padding-left: 9em;
 			}
+			
 	}
 	/*committ problema de screen resolucion de 1900 seccion de porfolio o que*/
 
 	@media screen and (min-width: 1900px) and (max-width: 2000px){
 		#main > section.two{
 			padding-left: 9em;
+		}
+
+		
+	}
+	@media screen and (min-width: 1300px) and (max-width: 1500px){
+
+		#main >section .cont-porfolio{
+			margin-left: 5em;
+		
+		}
+	}
+	@media screen and (min-width: 1500px) and (max-width: 2500px){
+
+		#main >section .cont-porfolio{
+			margin-left: 5em;
+		
 		}
 	}
 
