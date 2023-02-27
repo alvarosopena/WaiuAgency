@@ -1,12 +1,10 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-
-
-
-
-.podcast header{
-
+@font-face {
+    font-family: 'TiltWarp';
+    src: url('/public/webfonts/TiltWarp-Regular.ttf');
 }
+
 
 .podcast img{
 	width: 70px;
@@ -101,7 +99,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family:'TiltWarp',sans-serif ;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2246,7 +2246,7 @@ input, select, textarea {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					/*font-size: 0.8em;*/
 				}
 
 					#nav ul li a span:before {
