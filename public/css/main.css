@@ -222,6 +222,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		font-size: large;
 	}
 
 		header > p {
@@ -2172,7 +2173,7 @@ input, select, textarea {
 			}
 
 		#header .icons {
-			font-size: 0.8em;
+			/*font-size: 0.8em;*/
 			text-align: center;
 		}
 
@@ -2271,7 +2272,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 152px;
 		text-align: center;
 		/* background-color: #dce3e2; */
 		padding: 3em 0 4em 0;
@@ -2382,7 +2383,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 140px;
+				margin-left: 0px;
 			}
 
 		/* Main */
