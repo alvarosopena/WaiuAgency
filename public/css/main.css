@@ -2698,7 +2698,7 @@ input, select, textarea {
 			}
 
 			body.header-visible #header {
-				-moz-transform: translateX(0);
+				-moz-transform: translateX(s0);
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
@@ -2746,6 +2746,7 @@ input, select, textarea {
 	}
 
 /* Mobile */
+	
 
 	@media screen and (max-width: 736px) {
 
