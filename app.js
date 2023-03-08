@@ -51,7 +51,9 @@ app.use((req,res,next)=> {
   });
   
 //Servidor
-app.listen(3002, () => {
-    console.log("Servidor en puerto 3002")
-})
+const PORT = process.env.PORT || 3002
+
+app.listen(PORT, () => {
+    console.log(`servidor en el puerto ${PORT}`)
+});
 
